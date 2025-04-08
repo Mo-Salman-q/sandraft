@@ -8,6 +8,7 @@
   padding-left: $gutter / 2;
   margin-right: auto;
   margin-left: auto;
+  justify-content: center;
 }
 
 
@@ -25,6 +26,8 @@
   flex-wrap: wrap;
   margin-right: -$gutter / 2;
   margin-left: -$gutter / 2;
+  justify-content: center;
+  
 }
 
 @mixin make-col-ready($gutter: $grid-gutter-width) {
@@ -34,6 +37,7 @@
   // later on to override this initial width.
   width: 100%;
   padding-right: $gutter / 2;
+  justify-content: center;
   padding-left: $gutter / 2;
 }
 
